@@ -1,0 +1,495 @@
+DOM7011: The code on this page disabled back and forward caching. For more information, see: http://go.microsoft.com/fwlink/?LinkID=291337
+serverless_edge
+HTML1300: Navigation occurred.
+serverless_edge
+HTML1508: Unmatched end tag.
+serverless_edge (17,1)
+HTML1508: Unmatched end tag.
+serverless_edge (20,1)
+HTML1512: Unmatched end tag.
+serverless_edge (100,32)
+video1
+serverless-webrtc.js (162,3)
+[object MediaStream]
+serverless-webrtc.js (172,5)
+   {
+      [functions]: ,
+      __proto__: { },
+      active: true,
+      id: "FDF6B68B-971D-44C0-83E0-740614456330",
+      onactive: null,
+      onaddtrack: null,
+      oninactive: null,
+      onremovetrack: null
+   }
+
+adding stream to pc1
+serverless-webrtc.js (173,5)
+signaling state change: [object Event]
+serverless-webrtc.js (225,3)
+   "signaling state change:"
+   {
+      [functions]: ,
+      __proto__: { },
+      AT_TARGET: 2,
+      bubbles: false,
+      BUBBLING_PHASE: 3,
+      cancelable: false,
+      cancelBubble: false,
+      CAPTURING_PHASE: 1,
+      currentTarget: null,
+      defaultPrevented: false,
+      eventPhase: 0,
+      isTrusted: false,
+      returnValue: true,
+      srcElement: { },
+      target: { },
+      timeStamp: 1464089779855,
+      type: "signalingstatechange"
+   }
+
+created local offer [object Object]
+serverless-webrtc.js (177,7)
+   "created local offer"
+   {
+      [functions]: ,
+      __proto__: { },
+      sdp: "v=0
+o=thisisadapterortc 8169639915646943137 2 IN IP4 127.0.0.1
+s=-
+t=0 0
+m=audio 9 UDP/TLS/RTP/SAVPF 104 9 106 0 8 103 97 13 118 101
+c=IN IP4 0.0.0.0
+a=rtcp:9 IN IP4 0.0.0.0
+a=rtpmap:104 SILK/16000
+a=rtcp-fb:104 x-message app send:dsh recv:dsh
+a=rtpmap:9 G722/8000
+a=rtcp-fb:9 x-message app send:dsh recv:dsh
+a=rtpmap:106 OPUS/48000/2
+a=rtcp-fb:106 x-message app send:dsh recv:dsh
+a=rtpmap:0 PCMU/8000
+a=rtcp-fb:0 x-message app send:dsh recv:dsh
+a=rtpmap:8 PCMA/8000
+a=rtcp-fb:8 x-message app send:dsh recv:dsh
+a=rtpmap:103 SILK/8000
+a=rtcp-fb:103 x-message app send:dsh recv:dsh
+a=rtpmap:97 RED/8000
+a=rtpmap:13 CN/8000
+a=rtpmap:118 CN/16000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 events=0-16
+a=rtcp-mux
+a=ice-ufrag:fve0
+a=ice-pwd:PE60Xc6GUmesTh884z26hwiP
+a=setup:actpass
+a=fingerprint:sha-256 0D:AD:64:8E:1F:8E:B0:E1:68:E9:0E:7F:CB:3E:24:68:14:75:3E:A2:E0:85:E7:94:7A:21:F3:70:DE:8E:70:62
+a=mid:0jxm6rkoio
+a=sendrecv
+a=msid:99B101AF-30C2-4E64-B7A7-530B4F481DC2 FB9656FE-10E5-4749-925A-7A97F8E19F62
+a=ssrc:1001 msid:99B101AF-30C2-4E64-B7A7-530B4F481DC2 FB9656FE-10E5-4749-925A-7A97F8E19F62
+a=ssrc:1001 cname:4y4l6h2kdh
+m=video 9 UDP/TLS/RTP/SAVPF 122 123
+c=IN IP4 0.0.0.0
+a=rtcp:9 IN IP4 0.0.0.0
+a=rtpmap:122 X-H264UC/90000
+a=fmtp:122 packetization-mode=1;mst-mode=NI-TC
+a=rtcp-fb:122 x-message app send:src,x-pli recv:src,x-pli
+a=rtpmap:123 x-ulpfecuc/90000
+a=rtcp-mux
+a=ice-ufrag:xcNv
+a=ice-pwd:+H+mDHBIJ+ywRwqeElsAXex3
+a=setup:actpass
+a=fingerprint:sha-256 56:1B:97:96:73:5C:9C:F2:5C:BF:C6:AC:F5:D1:10:9B:3A:AC:A3:D3:2B:DE:7B:B6:AE:42:6B:70:21:9F:B1:54
+a=mid:dthknw9104
+a=sendrecv
+a=msid:99B101AF-30C2-4E64-B7A7-530B4F481DC2 C69F4012-6595-4132-A28A-417954EB1DE6
+a=ssrc:3003 msid:99B101AF-30C2-4E64-B7A7-530B4F481DC2 C69F4012-6595-4132-A28A-417954EB1DE6
+a=ssrc:3003 cname:4y4l6h2kdh
+",
+      type: "offer"
+   }
+
+ICE candidate (pc1) [object Event]
+serverless-webrtc.js (187,3)
+   "ICE candidate (pc1)"
+   {
+      [functions]: ,
+      __proto__: { },
+      AT_TARGET: 2,
+      bubbles: false,
+      BUBBLING_PHASE: 3,
+      cancelable: false,
+      cancelBubble: false,
+      candidate: { },
+      CAPTURING_PHASE: 1,
+      currentTarget: null,
+      defaultPrevented: false,
+      eventPhase: 0,
+      isTrusted: false,
+      returnValue: true,
+      srcElement: { },
+      target: { },
+      timeStamp: 1464089779849,
+      type: "icecandidate"
+   }
+
+11.769: pc1 ICE candidate: 
+candidate:1 1 UDP 2130706431 192.168.153.129 16586 typ host
+serverless-webrtc.js (379,5)
+ICE candidate (pc1) [object Event]
+serverless-webrtc.js (187,3)
+   "ICE candidate (pc1)"
+   {
+      [functions]: ,
+      __proto__: { },
+      AT_TARGET: 2,
+      bubbles: false,
+      BUBBLING_PHASE: 3,
+      cancelable: false,
+      cancelBubble: false,
+      candidate: { },
+      CAPTURING_PHASE: 1,
+      currentTarget: null,
+      defaultPrevented: false,
+      eventPhase: 0,
+      isTrusted: false,
+      returnValue: true,
+      srcElement: { },
+      target: { },
+      timeStamp: 1464089779849,
+      type: "icecandidate"
+   }
+
+11.778: pc1 ICE candidate: 
+candidate:2 1 TCP 1684798975 192.168.153.129 16586 typ srflx raddr 192.168.153.129 rport 16586 tcptype active
+serverless-webrtc.js (379,5)
+ICE candidate (pc1) [object Event]
+serverless-webrtc.js (187,3)
+   "ICE candidate (pc1)"
+   {
+      [functions]: ,
+      __proto__: { },
+      AT_TARGET: 2,
+      bubbles: false,
+      BUBBLING_PHASE: 3,
+      cancelable: false,
+      cancelBubble: false,
+      candidate: { },
+      CAPTURING_PHASE: 1,
+      currentTarget: null,
+      defaultPrevented: false,
+      eventPhase: 0,
+      isTrusted: false,
+      returnValue: true,
+      srcElement: { },
+      target: { },
+      timeStamp: 1464089779849,
+      type: "icecandidate"
+   }
+
+11.782: pc1 ICE candidate: 
+candidate:1 1 udp 1 0.0.0.0 9 typ endOfCandidates
+serverless-webrtc.js (379,5)
+ICE candidate (pc1) [object Event]
+serverless-webrtc.js (187,3)
+   "ICE candidate (pc1)"
+   {
+      [functions]: ,
+      __proto__: { },
+      AT_TARGET: 2,
+      bubbles: false,
+      BUBBLING_PHASE: 3,
+      cancelable: false,
+      cancelBubble: false,
+      CAPTURING_PHASE: 1,
+      currentTarget: null,
+      defaultPrevented: false,
+      eventPhase: 0,
+      isTrusted: false,
+      returnValue: true,
+      srcElement: { },
+      target: { },
+      timeStamp: 1464089779849,
+      type: "icecandidate"
+   }
+
+local Answer pc1 local description  {"type":"offer","sdp":"v=0\r\no=thisisadapterortc 8169639915646943137 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\nm=audio 9 UDP/TLS/RTP/SAVPF 104 9 106 0 8 103 97 13 118 101\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=rtpmap:104 SILK/16000\r\na=rtcp-fb:104 x-message app send:dsh recv:dsh\r\na=rtpmap:9 G722/8000\r\na=rtcp-fb:9 x-message app send:dsh recv:dsh\r\na=rtpmap:106 OPUS/48000/2\r\na=rtcp-fb:106 x-message app send:dsh recv:dsh\r\na=rtpmap:0 PCMU/8000\r\na=rtcp-fb:0 x-message app send:dsh recv:dsh\r\na=rtpmap:8 PCMA/8000\r\na=rtcp-fb:8 x-message app send:dsh recv:dsh\r\na=rtpmap:103 SILK/8000\r\na=rtcp-fb:103 x-message app send:dsh recv:dsh\r\na=rtpmap:97 RED/8000\r\na=rtpmap:13 CN/8000\r\na=rtpmap:118 CN/16000\r\na=rtpmap:101 telephone-event/8000\r\na=fmtp:101 events=0-16\r\na=rtcp-mux\r\na=ice-ufrag:fve0\r\na=ice-pwd:PE60Xc6GUmesTh884z26hwiP\r\na=setup:actpass\r\na=fingerprint:sha-256 0D:AD:64:8E:1F:8E:B0:E1:68:E9:0E:7F:CB:3E:24:68:14:75:3E:A2:E0:85:E7:94:7A:21:F3:70:DE:8E:70:62\r\na=mid:0jxm6rkoio\r\na=sendrecv\r\na=msid:99B101AF-30C2-4E64-B7A7-530B4F481DC2 FB9656FE-10E5-4749-925A-7A97F8E19F62\r\na=ssrc:1001 msid:99B101AF-30C2-4E64-B7A7-530B4F481DC2 FB9656FE-10E5-4749-925A-7A97F8E19F62\r\na=ssrc:1001 cname:4y4l6h2kdh\r\na=candidate:1 1 UDP 2130706431 192.168.153.129 16586 typ host\r\na=candidate:2 1 TCP 1684798975 192.168.153.129 16586 typ srflx raddr 192.168.153.129 rport 16586 tcptype active\r\na=end-of-candidates\r\nm=video 9 UDP/TLS/RTP/SAVPF 122 123\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=rtpmap:122 X-H264UC/90000\r\na=fmtp:122 packetization-mode=1;mst-mode=NI-TC\r\na=rtcp-fb:122 x-message app send:src,x-pli recv:src,x-pli\r\na=rtpmap:123 x-ulpfecuc/90000\r\na=rtcp-mux\r\na=ice-ufrag:xcNv\r\na=ice-pwd:+H+mDHBIJ+ywRwqeElsAXex3\r\na=setup:actpass\r\na=fingerprint:sha-256 56:1B:97:96:73:5C:9C:F2:5C:BF:C6:AC:F5:D1:10:9B:3A:AC:A3:D3:2B:DE:7B:B6:AE:42:6B:70:21:9F:B1:54\r\na=mid:dthknw9104\r\na=sendrecv\r\na=msid:99B101AF-30C2-4E64-B7A7-530B4F481DC2 C69F4012-6595-4132-A28A-417954EB1DE6\r\na=ssrc:3003 msid:99B101AF-30C2-4E64-B7A7-530B4F481DC2 C69F4012-6595-4132-A28A-417954EB1DE6\r\na=ssrc:3003 cname:4y4l6h2kdh\r\na=end-of-candidates\r\n"}
+serverless-webrtc.js (195,3)
+ICE candidate (pc1) [object Event]
+serverless-webrtc.js (187,3)
+   "ICE candidate (pc1)"
+   {
+      [functions]: ,
+      __proto__: { },
+      AT_TARGET: 2,
+      bubbles: false,
+      BUBBLING_PHASE: 3,
+      cancelable: false,
+      cancelBubble: false,
+      candidate: { },
+      CAPTURING_PHASE: 1,
+      currentTarget: null,
+      defaultPrevented: false,
+      eventPhase: 0,
+      isTrusted: false,
+      returnValue: true,
+      srcElement: { },
+      target: { },
+      timeStamp: 1464089779849,
+      type: "icecandidate"
+   }
+
+11.794: pc1 ICE candidate: 
+candidate:1 1 UDP 2130706431 192.168.153.129 20736 typ host
+serverless-webrtc.js (379,5)
+ICE candidate (pc1) [object Event]
+serverless-webrtc.js (187,3)
+   "ICE candidate (pc1)"
+   {
+      [functions]: ,
+      __proto__: { },
+      AT_TARGET: 2,
+      bubbles: false,
+      BUBBLING_PHASE: 3,
+      cancelable: false,
+      cancelBubble: false,
+      candidate: { },
+      CAPTURING_PHASE: 1,
+      currentTarget: null,
+      defaultPrevented: false,
+      eventPhase: 0,
+      isTrusted: false,
+      returnValue: true,
+      srcElement: { },
+      target: { },
+      timeStamp: 1464089779849,
+      type: "icecandidate"
+   }
+
+11.797: pc1 ICE candidate: 
+candidate:2 1 TCP 1684798975 192.168.153.129 20736 typ srflx raddr 192.168.153.129 rport 20736 tcptype active
+serverless-webrtc.js (379,5)
+ICE candidate (pc1) [object Event]
+serverless-webrtc.js (187,3)
+   "ICE candidate (pc1)"
+   {
+      [functions]: ,
+      __proto__: { },
+      AT_TARGET: 2,
+      bubbles: false,
+      BUBBLING_PHASE: 3,
+      cancelable: false,
+      cancelBubble: false,
+      candidate: { },
+      CAPTURING_PHASE: 1,
+      currentTarget: null,
+      defaultPrevented: false,
+      eventPhase: 0,
+      isTrusted: false,
+      returnValue: true,
+      srcElement: { },
+      target: { },
+      timeStamp: 1464089779850,
+      type: "icecandidate"
+   }
+
+11.800: pc1 ICE candidate: 
+candidate:1 1 udp 1 0.0.0.0 9 typ endOfCandidates
+serverless-webrtc.js (379,5)
+ICE candidate (pc1) [object Event]
+serverless-webrtc.js (187,3)
+   "ICE candidate (pc1)"
+   {
+      [functions]: ,
+      __proto__: { },
+      AT_TARGET: 2,
+      bubbles: false,
+      BUBBLING_PHASE: 3,
+      cancelable: false,
+      cancelBubble: false,
+      CAPTURING_PHASE: 1,
+      currentTarget: null,
+      defaultPrevented: false,
+      eventPhase: 0,
+      isTrusted: false,
+      returnValue: true,
+      srcElement: { },
+      target: { },
+      timeStamp: 1464089779850,
+      type: "icecandidate"
+   }
+
+local Answer pc1 local description  {"type":"offer","sdp":"v=0\r\no=thisisadapterortc 8169639915646943137 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\nm=audio 9 UDP/TLS/RTP/SAVPF 104 9 106 0 8 103 97 13 118 101\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=rtpmap:104 SILK/16000\r\na=rtcp-fb:104 x-message app send:dsh recv:dsh\r\na=rtpmap:9 G722/8000\r\na=rtcp-fb:9 x-message app send:dsh recv:dsh\r\na=rtpmap:106 OPUS/48000/2\r\na=rtcp-fb:106 x-message app send:dsh recv:dsh\r\na=rtpmap:0 PCMU/8000\r\na=rtcp-fb:0 x-message app send:dsh recv:dsh\r\na=rtpmap:8 PCMA/8000\r\na=rtcp-fb:8 x-message app send:dsh recv:dsh\r\na=rtpmap:103 SILK/8000\r\na=rtcp-fb:103 x-message app send:dsh recv:dsh\r\na=rtpmap:97 RED/8000\r\na=rtpmap:13 CN/8000\r\na=rtpmap:118 CN/16000\r\na=rtpmap:101 telephone-event/8000\r\na=fmtp:101 events=0-16\r\na=rtcp-mux\r\na=ice-ufrag:fve0\r\na=ice-pwd:PE60Xc6GUmesTh884z26hwiP\r\na=setup:actpass\r\na=fingerprint:sha-256 0D:AD:64:8E:1F:8E:B0:E1:68:E9:0E:7F:CB:3E:24:68:14:75:3E:A2:E0:85:E7:94:7A:21:F3:70:DE:8E:70:62\r\na=mid:0jxm6rkoio\r\na=sendrecv\r\na=msid:99B101AF-30C2-4E64-B7A7-530B4F481DC2 FB9656FE-10E5-4749-925A-7A97F8E19F62\r\na=ssrc:1001 msid:99B101AF-30C2-4E64-B7A7-530B4F481DC2 FB9656FE-10E5-4749-925A-7A97F8E19F62\r\na=ssrc:1001 cname:4y4l6h2kdh\r\na=candidate:1 1 UDP 2130706431 192.168.153.129 16586 typ host\r\na=candidate:2 1 TCP 1684798975 192.168.153.129 16586 typ srflx raddr 192.168.153.129 rport 16586 tcptype active\r\na=end-of-candidates\r\nm=video 9 UDP/TLS/RTP/SAVPF 122 123\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=rtpmap:122 X-H264UC/90000\r\na=fmtp:122 packetization-mode=1;mst-mode=NI-TC\r\na=rtcp-fb:122 x-message app send:src,x-pli recv:src,x-pli\r\na=rtpmap:123 x-ulpfecuc/90000\r\na=rtcp-mux\r\na=ice-ufrag:xcNv\r\na=ice-pwd:+H+mDHBIJ+ywRwqeElsAXex3\r\na=setup:actpass\r\na=fingerprint:sha-256 56:1B:97:96:73:5C:9C:F2:5C:BF:C6:AC:F5:D1:10:9B:3A:AC:A3:D3:2B:DE:7B:B6:AE:42:6B:70:21:9F:B1:54\r\na=mid:dthknw9104\r\na=sendrecv\r\na=msid:99B101AF-30C2-4E64-B7A7-530B4F481DC2 C69F4012-6595-4132-A28A-417954EB1DE6\r\na=ssrc:3003 msid:99B101AF-30C2-4E64-B7A7-530B4F481DC2 C69F4012-6595-4132-A28A-417954EB1DE6\r\na=ssrc:3003 cname:4y4l6h2kdh\r\na=end-of-candidates\r\na=candidate:1 1 UDP 2130706431 192.168.153.129 20736 typ host\r\na=candidate:2 1 TCP 1684798975 192.168.153.129 20736 typ srflx raddr 192.168.153.129 rport 20736 tcptype active\r\n"}
+serverless-webrtc.js (195,3)
+11.826: pc1 addIceCandidate success
+serverless-webrtc.js (379,5)
+11.827: pc1 addIceCandidate success
+serverless-webrtc.js (379,5)
+11.827: pc1 addIceCandidate success
+serverless-webrtc.js (379,5)
+11.827: pc1 addIceCandidate success
+serverless-webrtc.js (379,5)
+11.828: pc1 addIceCandidate success
+serverless-webrtc.js (379,5)
+11.828: pc1 addIceCandidate success
+serverless-webrtc.js (379,5)
+Received remote answer:  [object Object]
+serverless-webrtc.js (244,3)
+   "Received remote answer: "
+   {
+      [functions]: ,
+      __proto__: { },
+      sdp: "v=0
+o=thisisadapterortc 8169639915646943137 2 IN IP4 127.0.0.1
+s=-
+t=0 0
+m=audio 9 UDP/TLS/RTP/SAVPF 104 9 106 0 8 103 97 13 118 101
+c=IN IP4 0.0.0.0
+a=rtcp:9 IN IP4 0.0.0.0
+a=rtpmap:104 SILK/16000
+a=rtcp-fb:104 x-message app send:dsh recv:dsh
+a=rtpmap:9 G722/8000
+a=rtcp-fb:9 x-message app send:dsh recv:dsh
+a=rtpmap:106 OPUS/48000/2
+a=rtcp-fb:106 x-message app send:dsh recv:dsh
+a=rtpmap:0 PCMU/8000
+a=rtcp-fb:0 x-message app send:dsh recv:dsh
+a=rtpmap:8 PCMA/8000
+a=rtcp-fb:8 x-message app send:dsh recv:dsh
+a=rtpmap:103 SILK/8000
+a=rtcp-fb:103 x-message app send:dsh recv:dsh
+a=rtpmap:97 RED/8000
+a=rtpmap:13 CN/8000
+a=rtpmap:118 CN/16000
+a=rtpmap:101 telephone-event/8000
+a=fmtp:101 events=0-16
+a=rtcp-mux
+a=ice-ufrag:kBph
+a=ice-pwd:1iVfE6I5VN66EVmHU0bbMvU5
+a=setup:active
+a=fingerprint:sha-256 97:68:FD:19:CE:FF:91:D5:A0:F0:B3:26:31:01:58:71:27:56:42:4A:A8:07:84:F4:63:F6:56:B2:28:68:DF:54
+a=mid:0jxm6rkoio
+a=sendrecv
+a=msid:4CA6EB9F-5858-426B-9B3A-B3D19AAB944F 52D60C3D-9FA8-4790-A37F-BA523DFAA05C
+a=ssrc:2002 msid:4CA6EB9F-5858-426B-9B3A-B3D19AAB944F 52D60C3D-9FA8-4790-A37F-BA523DFAA05C
+a=ssrc:2002 cname:vk1y4p3fcb
+a=candidate:1 1 UDP 2130706431 192.168.153.129 14974 typ host
+a=candidate:2 1 TCP 1684798975 192.168.153.129 14974 typ srflx raddr 192.168.153.129 rport 14974 tcptype active
+a=end-of-candidates
+m=video 9 UDP/TLS/RTP/SAVPF 122 123
+c=IN IP4 0.0.0.0
+a=rtcp:9 IN IP4 0.0.0.0
+a=rtpmap:122 X-H264UC/90000
+a=fmtp:122 packetization-mode=1;mst-mode=NI-TC
+a=rtcp-fb:122 x-message app send:src,x-pli recv:src,x-pli
+a=rtpmap:123 x-ulpfecuc/90000
+a=rtcp-mux
+a=ice-ufrag:EwQC
+a=ice-pwd:4GhAb9x/0xtquNwNq7WtApDs
+a=setup:active
+a=fingerprint:sha-256 68:30:00:32:E7:BA:C7:C7:AD:94:99:2B:D7:3C:B2:CB:62:9E:B2:30:8C:71:87:C4:E6:3E:8E:C4:AA:E0:43:EC
+a=mid:dthknw9104
+a=sendrecv
+a=msid:4CA6EB9F-5858-426B-9B3A-B3D19AAB944F 29D95C57-590B-46B2-B2D6-A52BE313E1D0
+a=ssrc:4004 msid:4CA6EB9F-5858-426B-9B3A-B3D19AAB944F 29D95C57-590B-46B2-B2D6-A52BE313E1D0
+a=ssrc:4004 cname:vk1y4p3fcb
+a=candidate:1 1 UDP 2130706431 192.168.153.129 17504 typ host
+a=candidate:2 1 TCP 1684798975 192.168.153.129 17504 typ srflx raddr 192.168.153.129 rport 17504 tcptype active
+a=end-of-candidates
+",
+      type: "answer"
+   }
+
+signaling state change: [object Event]
+serverless-webrtc.js (225,3)
+   "signaling state change:"
+   {
+      [functions]: ,
+      __proto__: { },
+      AT_TARGET: 2,
+      bubbles: false,
+      BUBBLING_PHASE: 3,
+      cancelable: false,
+      cancelBubble: false,
+      CAPTURING_PHASE: 1,
+      currentTarget: null,
+      defaultPrevented: false,
+      eventPhase: 0,
+      isTrusted: false,
+      returnValue: true,
+      srcElement: { },
+      target: { },
+      timeStamp: 1464089804374,
+      type: "signalingstatechange"
+   }
+
+36.305: pc1 ICE state: connecting
+serverless-webrtc.js (379,5)
+ICE state change event:  [object Event]
+serverless-webrtc.js (368,5)
+   "ICE state change event: "
+   {
+      [functions]: ,
+      __proto__: { },
+      AT_TARGET: 2,
+      bubbles: false,
+      BUBBLING_PHASE: 3,
+      cancelable: false,
+      cancelBubble: false,
+      CAPTURING_PHASE: 1,
+      currentTarget: null,
+      defaultPrevented: false,
+      eventPhase: 0,
+      isTrusted: false,
+      returnValue: true,
+      srcElement: { },
+      target: { },
+      timeStamp: 1464089804401,
+      type: "iceconnectionstatechange"
+   }
+
+Got remote stream [object MediaStream]
+serverless-webrtc.js (200,3)
+   "Got remote stream"
+   {
+      [functions]: ,
+      __proto__: { },
+      active: true,
+      id: "BF6E79CC-49D2-4CD9-8AF5-DD0046AC0B4B",
+      onactive: null,
+      onaddtrack: null,
+      oninactive: null,
+      onremovetrack: null
+   }
+
+ORTC18615: ORTC RTCDtlsTransport: DTLS handshake failed. hr=c004e00f.
+SCRIPT5045: Assignment to read-only properties is not allowed in strict mode
+adapter.js (1286,13)
+ORTC18615: ORTC RTCDtlsTransport: DTLS handshake failed. hr=c004e00f.
+SCRIPT5045: Assignment to read-only properties is not allowed in strict mode
+adapter.js (1286,13)
+66.451: pc1 ICE state: connected
+serverless-webrtc.js (379,5)
+ICE state change event:  [object Event]
+serverless-webrtc.js (368,5)
+   "ICE state change event: "
+   {
+      [functions]: ,
+      __proto__: { },
+      AT_TARGET: 2,
+      bubbles: false,
+      BUBBLING_PHASE: 3,
+      cancelable: false,
+      cancelBubble: false,
+      CAPTURING_PHASE: 1,
+      currentTarget: null,
+      defaultPrevented: false,
+      eventPhase: 0,
+      isTrusted: false,
+      returnValue: true,
+      srcElement: { },
+      target: { },
+      timeStamp: 1464089834548,
+      type: "iceconnectionstatechange"
+   }
+

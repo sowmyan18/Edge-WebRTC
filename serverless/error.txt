@@ -1,0 +1,7 @@
+I have two source code folders "serverless" and "serverless_edge"" . 
+
+	In serverless I have used latest adapter.js and in js/serverless-webrtc.js I have disable the creation of data channel.It works fine in chrome but in Edge it throws ORTC RTCDtlsTransport : DTLS handshake failed .hr=c004e00f “. and remote video stream is empty
+
+	In serverless_edge I have used latest adapter.js and in js/serverless-webrtc.js I have implemented addIcecandidate to add ice candidate to other peer by using "RTCIceCandidate(event.candidate)" on onicecandidate event . This I refered by https://webrtc.github.io/samples/src/content/peerconnection/pc1/ implementation which establishes the peer connection in Edge browser also. Using this it throws error in chrome for adding Ice candidate and doesn't work .
+	In Edge I don't get error of adding ice candidate but still persist with "ORTC RTCDtlsTransport : DTLS handshake failed .hr=c004e00f “. error.and remote video stream is empty
+
